@@ -1,7 +1,7 @@
 ---
-title: Project Name
-date: yyyy-mm-dd
-description: Short description of the project
+title: Project Template
+date: 2023/01/01
+description: Short description of the project.
 ---
 
 # Project Name
