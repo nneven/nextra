@@ -24,6 +24,6 @@ export default {
       `}</style>
     </small>
   ),
-  readMore: 'Read More →',
+  readMore: null,
   darkMode: true,
 }
