@@ -3,17 +3,16 @@ const YEAR = new Date().getFullYear()
 export default {
   footer: (
     <small style={{ display: 'block', marginTop: '8rem' }}>
+      <a href="/">About</a>
+      <a href="/projects">Projects</a>
       <span>
-        <a href="/">About</a>
-        <a href="/projects">Projects</a>
+        <time>{YEAR}</time> © Nicolas Neven.
       </span>
-      <time>{YEAR} © Nicolas Neven.</time>
       <style jsx>{`
         a {
-          float: left;
           margin-right: 1rem;
         }
-        time {
+        span {
           float: right;
         }
         @media screen and (max-width: 480px) {
@@ -24,5 +23,7 @@ export default {
         }
       `}</style>
     </small>
-  )
+  ),
+  readMore: 'Read More →',
+  darkMode: true,
 }
